@@ -24,4 +24,4 @@ response = requests.request("POST",
 returned_msg = json.loads(response.text)
   
 
-print(returned_msg['message'])
+print(returned_msg['hello'])
